@@ -39,5 +39,5 @@ function findUniq(arr) {
 ## English:
 
 - English A1
-- I stady English, i listen a linguaphone course every day.
-- I read adapted English texts.
+- I study english, i listen a linguaphone course every day.
+- I read adapted english texts.
