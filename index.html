@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <div class="nav__item">
+            <a href="#contacts" class="nav__link nav__link_color">Contacts</a>
+          </div>
+          <div class="nav__item">
+            <a href="#about" class="nav__link">About myself</a>
+          </div>
+          <div class="nav__item">
+            <a href="#skills" class="nav__link">Skills</a>
+          </div>
+          <div class="nav__item">
+            <a href="#code" class="nav__link">Code examples</a>
+          </div>
+          <div class="nav__item">
+            <a href="#education" class="nav__link">Education</a>
+          </div>
+          <div class="nav__item">
+            <a href="#english" class="nav__link">English</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile">
+          <img
+            class="section-profile__logo"
+            src="./assets/img/photo.jpg"
+            alt="My Photo"
+          />
+          <div class="section-profile__about">
+            <h1 class="section-profile__title">Yan Zayats</h1>
+            <h2 class="section-profile__subtitle">Front-End developer</h2>
+          </div>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="contacts">Contacts</h2>
+          <ul class="main-info__list">
+            <li class="main-info__item">Mobile: +375(29)108-57-61.</li>
+            <li class="main-info__item">
+              E-mail:
+              <a
+                href="mailto:zayatsyava@gmail.com"
+                title="E-mail"
+                class="main-info__link"
+                >zayatsyava@gmail.com</a
+              >
+            </li>
+            <li class="main-info__item">
+              Telegram:
+              <a
+                href="https://t.me/YanZayats"
+                title="Telegram"
+                class="main-info__link"
+                >@yanzayats</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="about">About myself</h2>
+          <div class="main-info__text">
+            My goals is to finish the course Rolling Scopes and work a
+            programmer. This will be the first step in my new life.
+          </div>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="skills">Skills</h2>
+          <ul class="main-info__list">
+            <li class="main-info__item">HTML</li>
+            <li class="main-info__item">CSS</li>
+            <li class="main-info__item">JavaScript</li>
+          </ul>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="code">Code examples</h2>
+          <pre class="main-info__pre"><code>
+function findUniq(arr) {
+    return +arr.filter(function(value) {
+      arr.indexOf(value) == arr.lastIndexOf(value);
+    });
+}
+                </code></pre>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="education">Education</h2>
+          <ul class="main-info__list">
+            <li class="main-info__item">Minsk State Energy College</li>
+            <li class="main-info__item">
+              By profession: Technician - power engineer
+            </li>
+            <li class="main-info__item">(MSEC 2013-2017).</li>
+            <li class="main-info__item">
+              Belarusian State Agrarian Technical University
+            </li>
+            <li class="main-info__item">By profession: Energy Engineer</li>
+            <li class="main-info__item">(BSATU 2018-2022).</li>
+          </ul>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="english">English</h2>
+          <div class="main-info__text">English A1</div>
+          <div class="main-info__text">
+            I study english, i listen a linguaphone course every day.
+          </div>
+          <div class="main-info__text">I read adapted english texts.</div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer__year">© 2022</div>
+        <div class="footer__links">
+          <div class="footer__github-link">
+            <a href="https://github.com/yanzayats" class="footer__link">
+              <span class="footer__title">My GitHub</span>
+            </a>
+          </div>
+          <div class="footer__rs-link">
+            <a href="https://rs.school/js/">
+              <img
+                class="rs-link__image"
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="Rolling Scopes logo"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
