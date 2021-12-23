@@ -1,1 +1,1 @@
-https://github.com/yanzayats/rsschool-cv
+https://yanzayats.github.io/rsschool-cv
