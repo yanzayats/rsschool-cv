@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="#">
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About myself</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code examples</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Project</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="burger-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="wrapper">
+        <section class="section-profile"> 
+          <div class="section-profile__about">
+            <h1 class="section-profile__title">YAN ZAYATS</h1>
+            <h2 class="section-profile__subtitle">Front-End developer</h2>
+          </div>
+            <img
+            class="section-profile__logo"
+            src="./assets/img/photo202202.png"
+            alt="My Photo" width="200" height="200"
+            >
+        </section>
+      </div>
+          <div class="container main-container">
+        <section class="section main-info ">
+          <h2 class="main-info__title" id="contacts">Contacts</h2>
+          <ul class="main-info__list">
+            <li class="main-info__item">
+              <img src="./assets/svg/contacts/smartphone.svg" alt="phone" class="svg-contacts">
+              <span>+375(29)108-57-61.</span>
+            </li>
+            <li class="main-info__item">
+              <a
+                href="mailto:zayatsyava@gmail.com"
+                title="E-mail"
+                class="main-info__link"
+                ><img src="./assets/svg/contacts/mail.svg" alt="mail" class="svg-contacts">
+                <span>zayatsyava@gmail.com</span></a
+              >
+            </li>
+            <li class="main-info__item">
+              <a
+                href="https://t.me/YanZayats"
+                title="Telegram"
+                class="main-info__link"
+                ><img src="./assets/svg/contacts/telegram.svg" alt="telegram" class="svg-contacts">
+                <span>@yanzayats</span></a
+              >
+            </li>
+            <li class="main-info__item">
+              <a
+                href="https://github.com/yanzayats"
+                title="GitHub"
+                class="main-info__link"
+                ><img src="./assets/svg/contacts/github-fill.svg" alt="github" class="svg-contacts">
+                <span>yanzayats</span></a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="about">About myself</h2>
+          <div class="main-info__text">
+            I have a goal to finish the course and get experience in
+            programming, also i wish to find a job and become
+            a programmer. This will the first step in my new life.
+          </div>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="skills">Skills</h2>
+          <ul class="main-info__list">
+            <li class="main-info__item">
+              <img src="./assets/svg/skills/html.svg" alt="html" width="32" height="32">
+              HTML
+            </li>
+            <li class="main-info__item">
+              <img src="./assets/svg/skills/css.svg" alt="css" width="32" height="32">
+              CSS
+            </li>
+            <li class="main-info__item">
+              <img src="./assets/svg/skills/javascript.svg" alt="js" width="32" height="32">
+              JavaScript
+            </li>
+            <li class="main-info__item">
+              <img src="./assets/svg/skills/git.svg" alt="git" width="32" height="32">
+              Git
+            </li>
+          </ul>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="code">Code examples</h2>
+          <pre class="main-info__pre"><code>
+function findUniq(arr) {
+    return +arr.filter(value => {
+      arr.indexOf(value) === arr.lastIndexOf(value);
+    });
+}
+          </code></pre>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="education">Education</h2>
+          <ul class="main-info__list">
+            <li class="main-info__item">Minsk State Energy College</li>
+            <li class="main-info__item">
+              By profession: Technician - power engineer
+            </li>
+            <li class="main-info__item">(MSEC 2013-2017).</li>
+            <li class="main-info__item">
+              Belarusian State Agrarian Technical University
+            </li>
+            <li class="main-info__item">By profession: Energy Engineer</li>
+            <li class="main-info__item">(BSATU 2018-2022).</li>
+            <li class="main-info__item">Rolling Scopes School</li>
+            <li class="main-info__item">Stage 0 (2022).</li>
+          </ul>
+        </section>
+        <section class="section main-info">
+          <h2 class="main-info__title" id="english">English</h2>
+          <h3 class="main-info__text">English A1</h3>
+          <ul class="main-info__list">
+            <li class="main-info__item">I study english, i listen a linguaphone course every day.</li>
+            <li class="main-info__item">I read adapted english texts.</li>
+            <li class="main-info__item">I whatch a document films, podcasts, also i try to
+              repeat pronunciation of the speacer.</li>
+          </ul>
+        </section>
+      </div>
+      <div class="wrapper">
+        <section class="section-project">
+          <div class="main-project">
+            <div>
+              <h2 id="project">PROJECT</h2>
+            </div>
+            <div class="container-project">
+              <button class="button-project" type="button">
+                <img src="./assets/svg/arrow-left-circle-line.svg" alt="right-arrow" class="button-svg" data-left="left">
+              </button>
+                <a href="https://rolling-scopes-school.github.io/yanzayats-JSFEPRESCHOOL/portfolio/" class="project">
+                  <img src="./assets/jpg/0.jpg" alt="porfolio" class="main-img">
+                </a>
+              <button class="button-project" type="button">
+                <img src="./assets/svg/arrow-right-circle-line.svg" alt="left-arrow" class="button-svg" data-right="right">
+              </button>
+            </div>
+          </div> 
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a href="https://github.com/yanzayats" class="footer-logo-githgub"></a>
+        <div class="footer-year">© 2022</div>
+        <a href="https://rs.school/js-stage0/" class="footer-logo-rss"></a>
+    </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
